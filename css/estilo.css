@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* BANNER */
+.banner {
+    background-image: url("../img/banner2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 30vh;
+    padding-left: 25vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-item {
+    width: 500px;
+    text-align: center;
+}
+
+.banner-item h1 {
+    color: rgb(60, 6, 110);
+    font-family: 'Lobster Two', cursive;
+    font-size: 7vh;
+    margin: 0px;
+}
+
+.banner-item p {
+    color: rgb(60, 6, 110);;
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+
+.banner-item a {
+    color: rgb(60, 6, 110);
+    font-family: Verdana, Geneva, Tahoma,sans-serif;
+    text-transform: uppercase;
+    text-decoration: unset;
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+
+.banner-item a:hover{
+    background-color:  rgb(60, 6, 110);
+    color: white;
+}
+
+/* SOBRE MIM */
+
+.sobre-mim {
+    color:rgb(60, 6, 110);
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Handlee', cursive;
+    font-size: 3vh;
+    text-align: justify;
+}
+
+.sobre-mim h2 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 5vh;
+}
+
+.minhas-habilidades {
+    display: flex;
+}
+
+.minhas-habilidades_sobre, .minhas-habilidades_itens {
+    max-width: 50%;
+}
+
+.minhas-habilidades_sobre a{
+    background-color:  rgb(60, 6, 110);
+    color: white;
+    padding: 15px 15px;
+    border-radius: 12px;
+    text-decoration: unset;
+}
+
+.minhas-habilidades_sobre a:hover{
+    background-color: rgb(127, 78, 173);
+    color:white;
+}
+.minhas-habilidades_itens{
+    margin-left: 10%;
+}
+
+/* REDES SOCIAIS */
+.redes-sociais{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 2.5vh;
+}
+
+.redes-sociais_item{
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais_item a{
+    text-decoration: unset;
+}
+
+.redes-sociais_item img{
+    max-width:100px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.redes-sociais_facebook, .redes-sociais_linkedin, .redes-sociais_instagrram, .redes-sociais_twitter{
+    color: rgb(60, 6, 110);
+    text-align: center; 
+    padding: 30px 15px;
+    font-size: 2vh;
+}
+
+/* FOOTER */
+
+footer p{
+    font-family: 'Be Vietnam', sans-serif;
+    text-align: center;
+    background-color:rgb(60, 6, 110);;
+    color: white;
+    margin: 0;
+    padding: 20px 0;
+}
